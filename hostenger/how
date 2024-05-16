@@ -1,0 +1,30 @@
+* In the Web site of the hostinger{
+    1- choose the package of hosting {
+        singel 
+        primume
+        business
+    } 
+    2- in your package {
+        - serche for auto installer 
+        - select other
+        - select laravel 
+        - choose the database and the website titel
+        - you can cerate laravel project use "laravel installer" 
+    }
+    3- in your package{
+        - select files 
+        - select file manager
+        - take your progect is compress by mouse in hostinger
+        - make unarchive for the project 
+        - go to laravel public and take all files to public_html/laravel "new"
+        - in file index.php add in 34 line ../laravelfilename  after /vendor
+        - in line 47 add ../laravelfilename after bootstrab
+    }
+    4- uplode the database to hostiner{
+        - go to datadases
+        - select mysql databases 
+        - change the file env 
+        - export the file of database and import this in phpmyadmin in hostinger
+        -  
+    }
+}
